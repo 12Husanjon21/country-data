@@ -16,6 +16,14 @@ body {
     background-color: #2e3643;
     color: white;
   }
+  .drawer {
+    background-color: #2e3643;
+    color: white;
+  }
+  .liner {
+    background-color: rgb(98, 110, 123);
+    border: none;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -23,6 +31,14 @@ body {
         background: whitesmoke;
         color: #334;
     }
+        .drawer {
+            background-color: white;
+            color: #2e3643;
+        }
+                .liner {
+                    background-color: rgb(109, 120, 131);
+                    border: none;
+                }
 }
 
 /* .carousel {
@@ -44,7 +60,6 @@ body {
     right: 0;
     width: 350px;
     height: 100%;
-    background-color: #2e3643;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease;
     z-index: 1000;

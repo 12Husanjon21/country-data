@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="footer bg-inherit border z-10 border-t-[#33353F] border-l-transparent border-r-transparent text-white">
+      <hr className=" h-[1px] slate" />
       <div className="container p-8 flex justify-between">
         <Link to="/" className=" text-slate-400 text-2xl font-semibold">
           Logo
